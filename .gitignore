@@ -72,3 +72,13 @@ examples/**/.svml/
 
 # Reverse-engineering scratch projects live outside the repository too
 /projects/*
+
+# ---- auto-audited: local artifacts that must never be committed ----
+*.keystore
+tmp/
+temp/
+.cache/
+.turbo/
+.next/
+build/
+target/
